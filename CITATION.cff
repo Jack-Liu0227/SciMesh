@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use SciMesh in your research, please cite it as below."
+title: "SciMesh: a local-first, model-agnostic multi-agent AI research workbench"
+type: software
+authors:
+  - name: "The SciMesh Contributors"
+repository-code: "https://github.com/Jack-Liu0227/SciMesh"
+url: "https://openedscience.com"
+license: MIT
+version: 0.7.3
+doi: 10.5281/zenodo.24286110
+date-released: 2026-11-16
+keywords:
+  - AI for science
+  - research workbench
+  - AI agents
+  - reproducibility
+  - local-first
+  - desktop application

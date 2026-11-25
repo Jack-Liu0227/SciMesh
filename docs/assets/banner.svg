@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">SciMesh</title>
+  <desc id="desc">Local-first, model-agnostic multi-agent AI research workbench.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#09152e"/>
+      <stop offset="1" stop-color="#172b52"/>
+    </linearGradient>
+    <linearGradient id="mark" x2="1" y2="1">
+      <stop stop-color="#73d5ed"/>
+      <stop offset="1" stop-color="#a2a9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="480" rx="24" fill="url(#background)"/>
+  <g transform="translate(100 158)">
+    <rect width="164" height="164" rx="40" fill="url(#mark)"/>
+    <path d="m36 57 23 23-23 23m36 1h24" fill="none" stroke="#122446" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m106 56 18 25-15 35" fill="none" stroke="#122446" stroke-width="4"/>
+    <g fill="#122446"><circle cx="106" cy="56" r="7"/><circle cx="124" cy="81" r="7"/><circle cx="109" cy="116" r="7"/></g>
+  </g>
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="310" y="225" fill="#f5f8ff" font-size="82" font-weight="650" letter-spacing="-2">SciMesh</text>
+    <text x="315" y="280" fill="#bfcee6" font-size="27">Your AI research workbench</text>
+    <text x="315" y="326" fill="#91a8ce" font-size="20">Local-first. Model-agnostic. Multi-agent.</text>
+  </g>
+  <g transform="translate(1080 102)" fill="none" stroke="#678bb5" stroke-width="2">
+    <path d="m70 52 162 12 90 122-153 89-130-95Z M70 52l99 223m63-211-193 116m283 6L70 52m99 223 63-211" opacity=".55"/>
+    <g fill="#182f53" stroke="#9ec9e1" stroke-width="3">
+      <circle cx="70" cy="52" r="12"/><circle cx="232" cy="64" r="16"/>
+      <circle cx="322" cy="186" r="12"/><circle cx="169" cy="275" r="15"/>
+      <circle cx="39" cy="180" r="13"/>
+    </g>
+    <circle cx="178" cy="157" r="28" fill="#9ec9e1" stroke="none"/>
+    <path d="m166 157 8 8 17-18" stroke="#122446" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+# OS
+.DS_Store
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+.turbo/
+*.tsbuildinfo
+coverage/
+
+# Rust / Tauri
+target/
+apps/desktop/src-tauri/target/
+apps/desktop/src-tauri/gen/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.uv/
+
+# Logs & caches
+*.log
+.cache/
+.eslintcache
+.superpowers/
+.worktrees/
+docs/superpowers/
+
+# Local runtime & secrets (never commit)
+.ai4s-workbench/
+secrets/
+*.key
+.env
+.env.*
+
+# Build artifacts / installers
+*.dmg
+*.app
+*.exe
+*.msi
+
+# Bundled sidecar binaries (fetched per-platform; too large for git)
+apps/desktop/src-tauri/binaries/
+
+# Native computer-use providers, staged per-platform by
+# scripts/dev/build-computer-use.mjs (Tauri's beforeBundleCommand). The sources
+# are in native/; this is build output. The directory itself is tracked, because
+# Tauri fails a build on a resource directory that does not exist.
+apps/desktop/src-tauri/computer-use/*
+!apps/desktop/src-tauri/computer-use/.gitkeep
+native/computer-use-macos/.build/
+
+# Third-party skill packs (fetched by scripts/dev/fetch-skills.sh)
+runtime/skills/external/
+
+
+# Local demo recordings (too large for git)
+videos/
+
+# Scratch space for scripts/dev/retouch-brand.py
+.tmp-retouch/
+
+# Local skill installation state
+.agents/local/
+skills-lock.json
+
+# Build output: the ACP agent script an editor spawns (scripts/build-acp-server.mjs)
+runtime/acp-server/
+
+# osd release archives (built by scripts/release/package-osd.sh)
+dist-osd/
+dist-desktop/
+
+# The app's own per-workspace state, written when this repo is opened as a
+# workspace. Machine inventories and run records are local, never source.
+.openscience/
